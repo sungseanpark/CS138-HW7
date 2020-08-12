@@ -1,0 +1,5 @@
+start: q0
+accepting: {q2}
+
+q0 (_,_ -> S$,q1)
+q1 (_,S -> a a S b, q1) (_,S -> a a a S b,q1) (_,S -> _,q1) (a,a -> _,q1) (b,b -> _,q1) (_,$ -> _,q2)

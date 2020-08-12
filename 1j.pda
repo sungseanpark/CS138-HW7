@@ -1,0 +1,5 @@
+start: q0
+accepting: {q2}
+
+q0 (_,_ -> S $,q1)
+q1 (_,S -> aSa,q1) (_,S -> bSb,q1) (_,S -> cSc,q1) (_,S -> aDb,q1) (_,S -> bDa,q1) (_,S -> aDc,q1) (_,S -> cDa,q1) (_,S -> bDc,q1) (_,S -> cDb,q1) (_,S -> aL,q1) (_,S -> bL,q1) (_,S -> cL,q1) (_,S -> Ra,q1) (_,S -> Rb,q1) (_,S -> Rc,q1) (_,D -> aDb,q1) (_,D -> bDa,q1) (_,D -> aDc,q1) (_,D -> cDa,q1) (_,D -> bDc,q1) (_,D -> cDb,q1) (_,D -> aDa,q1) (_,D -> bDb,q1) (_,D -> cDc,q1) (_,D -> aL,q1) (_,D -> bL,q1) (_,D -> cL,q1) (_,D -> Ra,q1) (_,D -> Rb,q1) (_,D -> Rc,q1) (_,D -> #,q1) (_,L -> aL,q1) (_,L -> bL,q1) (_,L -> cL,q1) (_,L -> aLa,q1) (_,L -> bLb,q1) (_,L -> cLc,q1) (_,L -> aLb,q1) (_,L -> bLa,q1) (_,L -> aLc,q1) (_,L -> cLa,q1) (_,L -> bLc,q1) (_,L -> cLb,q1) (_,L -> #,q1) (_,R -> Ra,q1) (_,R -> Rb,q1) (_,R -> Rc,q1) (_,R -> aRb,q1) (_,R -> bRa,q1) (_,R -> aRc,q1) (_,R -> cRa,q1) (_,R -> bRc,q1) (_,R -> cRb,q1) (_,R -> aRa,q1) (_,R -> bRb,q1) (_,R -> cRc,q1) (_,R -> #,q1) (a,a -> _,q1) (b,b -> _,q1) (c,c -> _,q1) (#,# -> _,q1) (_,$ -> _,q2)
